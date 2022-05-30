@@ -18,6 +18,7 @@ namespace Gestion_Drive
         {
             InitializeComponent();
         }
+        //Commande pour que l'application se connecte à la base de données
         MySqlConnection con = new MySqlConnection("server = localhost; userid = root; password='' ; database=projet2");
 
         private void button1_Click(object sender, EventArgs e)
